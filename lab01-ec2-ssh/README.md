@@ -1,7 +1,5 @@
 # Lab 01 - EC2 + SSH
 
-Date: September 12, 2026
-
 First real lab: spun up an EC2 instance and connected to it over SSH.
 
 ## What I did

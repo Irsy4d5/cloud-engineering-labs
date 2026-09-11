@@ -34,7 +34,3 @@ pwd
 cd ~
 pwd
 ```
-
-## Next up
-
-Lab 02 - S3 + IAM

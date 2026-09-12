@@ -1,7 +1,5 @@
 # Lab 02 - S3 + IAM
 
-Second lab, spent more time working through it on my own and just checked in for guidance where needed.
-
 ## What I did
 
 Created a private S3 bucket (irsyad-lab02-bucket-2026) with all public access blocked by default. Uploaded my Lab 01 screenshots into it as test files, then confirmed the bucket was actually private by grabbing one file's Object URL and opening it directly in a browser tab - got a clean Access Denied error, which is exactly what should happen.

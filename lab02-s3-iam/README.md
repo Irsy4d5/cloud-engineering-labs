@@ -1,6 +1,6 @@
 # Lab 02 - S3 + IAM
 
-First lab following the full-guide-upfront style - I did the clicking, Claude checked in via screenshots as we went.
+Second lab, spent more time working through it on my own and just checked in for guidance where needed.
 
 ## What I did
 

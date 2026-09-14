@@ -28,6 +28,8 @@ docker stop my-first-container my-custom-container
 
 terminal-push-success.png: Terminal showing the successful docker push (credentials redacted)
 
+local-custom-container.png: The same custom page running locally on localhost:8081 before it was ever pushed to AWS
+
 ecr-image-pushed.jpg: ECR repository showing the pushed image
 
 live-container-browser.png: Custom page being served live from the running ECS task's public IP

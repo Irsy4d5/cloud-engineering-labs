@@ -10,7 +10,7 @@ Installed boto3 and the AWS CLI, then created a dedicated access key for program
 
 Hit a classic relative-path mistake: ran the upload script from a different folder than the one the test file actually lived in, so Python could not find it and threw a FileNotFoundError. Also generated a messy duplicate object in S3 from an earlier attempt where the full Windows file path ended up baked into the S3 key instead of just the filename. Fixed both by cd-ing into the correct folder before running the script, then deleted the badly-named duplicate from the bucket.
 
-Also had a moment early on where I pasted a real AWS access key into a chat by mistake - immediately deactivated and deleted that key and generated a fresh one before continuing, since credentials should never be treated as safe once they have been shared anywhere outside of secure storage.
+Also had a moment early on where I handled an AWS access key carelessly during setup. That key has since been deactivated and deleted for security, and a fresh one was generated in its place - a good reminder that credentials should never be treated as safe once they have been exposed anywhere outside of secure local storage.
 
 ## Commands / actions used
 
@@ -24,7 +24,9 @@ python list_instances.py
 
 ## Screenshots
 
-terminal-output.png: Full terminal session showing the error, the fix, and both scripts succeeding
+terminal-output-part1.png: Terminal session showing setup and the FileNotFoundError
+
+terminal-output-part2.png: Terminal session showing the fix and both scripts succeeding
 
 s3-bucket-upload.jpg: S3 bucket showing the file uploaded via script
 
